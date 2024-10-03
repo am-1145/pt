@@ -1,0 +1,44 @@
+/* Home.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-container {
+  flex: 1;
+  text-align: center;
+}
+
+.welcome-message {
+  color: rgb(232, 74, 100); /* Pink color for welcome message */
+  margin-top: 20px; /* Margin for spacing */
+}
+
+.signup-section {
+  color: rgb(231, 72, 98); /* Pink color for SignUp section */
+  margin-top: 20px; /* Margin for spacing */
+  display: flex;
+  justify-content: center; /* Center SignUp component */
+}
+
+.message-container {
+  margin: 20px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.action-button {
+  background-color: rgb(239, 168, 180); /* Pink background for action button */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logged-in-message {
+  margin-top: 20px;
+}

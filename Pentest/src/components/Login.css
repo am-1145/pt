@@ -1,0 +1,72 @@
+/* Main page container to center the login form vertically and horizontally */
+.loginPage {
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers the container horizontally */
+    align-items: center; /* Centers the container vertically */
+    min-height: 100vh; /* Sets the height to the full viewport */
+    background-color: #f0f2f5; /* Light background color */
+  }
+  
+  /* Container for the login form with padding and box shadow for layout */
+  .loginContainer {
+    display: flex;
+    flex-direction: column; /* Aligns children vertically */
+    align-items: center; /* Centers children horizontally */
+    padding: 30px;
+    width: 400px; /* Fixed width for consistent layout */
+    background: #ffffff; /* White background for form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;
+  }
+  
+  /* Title styling for the Login heading */
+  .title {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Individual input field container to add spacing */
+  .inputContainer {
+    width: 100%;
+    margin-bottom: 15px; /* Adds spacing between input fields */
+  }
+  
+  /* Input field styling */
+  .inputBox {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px; /* Adds spacing above the input field */
+    font-size: 14px;
+  }
+  
+  /* Error message styling */
+  .errorLabel {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  /* Styling for the Login button */
+  .inputButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Adds spacing above the button */
+    transition: background-color 0.3s ease;
+  }
+  
+  .inputButton:hover {
+    background-color: #0056b3;
+  }
+
+  
